@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
+  <title>HIMALAYA INSTITUTE-Thank You</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: rgba(238, 211, 102, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .thank-you-box {
+      background-color: white;
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .thank-you-box h1 {
+      color: #ff6347;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .thank-you-box p {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .thank-you-box button {
+      background-color: #ff6347;
+      color: white;
+      padding: 10px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .thank-you-box button:hover {
+      background-color: #e5533d;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-box">
+    <h1>Thank You!</h1>
+    <p>Your registration was successful.<br>We will contact you soon!</p>
+    <a href="index.html" style="text-decoration: none;">
+       <button>← Back</button>
+    </a>
+  </div>
+</body>
+</html>

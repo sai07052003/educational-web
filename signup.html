@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="icon" type="image/jpg" href="favicon.jpg">
+        <title>Sign UP Page</title>
+        <style>
+           *{
+            font-family: 'Times New Roman', Times, serif;
+           }
+            form{
+                font-size: medium;
+                text-align: justify;
+            }
+          body{
+              
+                background-image: url(sin1.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin: 0;
+                height: 100%;
+            
+           }
+            .signup-info{
+                padding: 20px;
+                border: 5px solid black;
+                background-color:rgba(237, 204, 83, 0.928);
+                margin: 100px auto;
+                text-align: center;
+                border-radius: 10px;
+                width: 300px;
+
+            }
+            input{
+                width: 90%;
+                padding: 8px;
+                margin: 8px;
+                border-radius: 5px;
+                border: 2px solid;
+                font-size: medium;
+            }
+        button {
+            padding: 10px;
+            width: 100%;
+            background-color: rgb(44, 111, 210);
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            color: black;
+            font-size: medium;
+        }
+        a{
+            text-decoration: none;
+            color: blueviolet;
+        }
+        a:hover{
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="signup-info">
+            <h2 style="font-size:30px;">Sign UP</h2>
+            <form action="index.html">
+                <input type="text" placeholder="Full Name"style="font-size: 20px;" required><br>
+                <input type="email" placeholder="Email" style="font-size: 20px;" required><br>
+                <input type="tel" placeholder="Phone number" pattern="[0-9]{10}"
+                   style="font-size: 20px;" required><br>
+                <input type="password" placeholder="Password" style="font-size: 20px;" required><br>
+                <input type="password" placeholder="confirm password"
+                   style="font-size: 20px;"  required><br>
+                <button type="submit" style="font-size: 20px;">Sign UP</button>
+            </form>
+            <p style="font-size: 20px;"> Aleady have an account? <a href="i.html">login</a></p>
+        </div>
+    </body>
+
+</html>
